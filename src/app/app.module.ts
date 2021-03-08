@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import * as alasql from 'alasql';
+import * as XLSX from 'xlsx';
 @NgModule({
   declarations: [
     AppComponent
